@@ -1,4 +1,5 @@
 FROM node:14-alpine
+LABEL org.opencontainers.image.description "First version of ebay-tracker-image!"
 
 WORKDIR /app
 
