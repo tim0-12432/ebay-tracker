@@ -1,6 +1,6 @@
 # One-day project
 
-A flask server which listens to mqtt topics and displays them on a webpage.
+A ebay tracker which tracks the latest products and prices from 'ebay Kleinanzeigen' and sends it to the MQTT broker for home automation.
 
 ## Use
 
