@@ -1,0 +1,13 @@
+{
+    "ebayUrl": "https://www.ebay-kleinanzeigen.de",
+    "categories": [
+        "fujifilm x-s10",
+        "fujinon 16-80mm"
+    ],
+    "mqtt": {
+        "host": "192.168.0.2",
+        "port": 1883
+    },
+    "debug": true,
+    "cronJob": "*/5 * * * *"
+}
