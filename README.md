@@ -5,7 +5,7 @@ A ebay tracker which tracks the latest products and prices from 'ebay Kleinanzei
 ## Use
 
 1. `docker pull ghcr.io/tim0-12432/ebay-tracker:latest`
-2. `docker run --name ebay-tracker -d -v ebay-tracker_config:/usr/bin/app/config ghcr.io/tim0-12432/ebay-tracker:latest`
+2. `docker run --name ebay-tracker -d -v ebay-tracker_config:/usr/src/app/config ghcr.io/tim0-12432/ebay-tracker:latest`
 
 ## Customize
 
@@ -15,4 +15,4 @@ A ebay tracker which tracks the latest products and prices from 'ebay Kleinanzei
 
 ### Run own container
 
-`sudo docker run --name ebay-tracker -d -v ebay-tracker_config:/usr/bin/app/config tim0-12432/ebay-tracker:<tag>`
+`sudo docker run --name ebay-tracker -d -v ebay-tracker_config:/usr/src/app/config tim0-12432/ebay-tracker:<tag>`

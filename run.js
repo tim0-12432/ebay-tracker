@@ -5,7 +5,7 @@ const mqtt = require('mqtt');
 const cron = require('node-cron');
 
 
-nconf.env().file({ file: 'config/config.json' });
+nconf.env().file({ file: './config/config.json' });
 
 
 function sendMqtt(mqttClient, category, message) {
